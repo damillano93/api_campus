@@ -1,0 +1,4 @@
+killall formacion_academica_crud
+cd $GOPATH/src/github.com/udistrital/formacion_academica_crud/
+google-chrome http://localhost:8095/swagger
+FORMACION_ACADEMICA_HTTP_PORT=8095 FORMACION_ACADEMICA_CRUD__PGUSER=postgres FORMACION_ACADEMICA_CRUD__PGPASS=password FORMACION_ACADEMICA_CRUD__PGURLS=localhost FORMACION_ACADEMICA_CRUD__PGDB=local FORMACION_ACADEMICA_CRUD__SCHEMA=core_new bee run -gendoc=true 

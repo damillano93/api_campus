@@ -1,0 +1,4 @@
+killall experiencia_laboral_crud
+cd $GOPATH/src/github.com/udistrital/experiencia_laboral_crud/
+google-chrome http://localhost:8096/swagger
+EXPERIENCIA_LABORAL_HTTP_PORT=8096 EXPERIENCIA_LABORAL_CRUD__PGUSER=postgres EXPERIENCIA_LABORAL_CRUD__PGPASS=password EXPERIENCIA_LABORAL_CRUD__PGURLS=localhost EXPERIENCIA_LABORAL_CRUD__PGDB=local EXPERIENCIA_LABORAL_CRUD__SCHEMA=core_new bee run -gendoc=true 
