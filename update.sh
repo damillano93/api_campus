@@ -46,3 +46,6 @@ killall sesiones_crud
 echo "Actualizar sesiones_crud"
 cd $GOPATH/src/github.com/udistrital/sesiones_crud/
 git pull https://github.com/udistrital/sesiones_crud develop
+echo "Actualizar sorganizacion_crud"
+cd $GOPATH/src/github.com/udistrital/organizacion_crud/
+git pull https://github.com/udistrital/organizacion_crud develop

@@ -1,0 +1,4 @@
+killall forms_management_crud
+cd $GOPATH/src/github.com/udistrital/forms_management_crud/
+google-chrome http://localhost:9011/swagger
+API_FORMS_MANAGEMENT_HTTP_PORT=9011 FORMS_MANAGEMENT_CRUD__PGUSER=postgres FORMS_MANAGEMENT_CRUD__PGPASS=password FORMS_MANAGEMENT_CRUD__PGURLS=localhost FORMS_MANAGEMENT_CRUD__PGDB=prueba FORMS_MANAGEMENT_CRUD__SCHEMA=forms_management bee run -gendoc=true 
