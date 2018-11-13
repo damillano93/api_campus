@@ -1,4 +1,4 @@
 killall campus_mid
 cd $GOPATH/src/github.com/udistrital/campus_mid/
-google-chrome http://localhost:8088/swagger
-CAMPUS_MID_HTTP_PORT=8088 PERSONAS_SERVICE=localhost:8080/v1 UBICACIONES_SERVICE=localhost:8085/v1 ENTE_SERVICE=localhost:8089/v1 FORMACION_ACADEMICA_SERVICE=localhost:8095/v1 bee run -gendoc=true 
+google-chrome http://localhost:8095/swagger 
+FORMACION_ACADEMICA_SERVICE=localhost:8098/v1 PERSONAS_SERVICE=localhost:8083/v1 ADMISIONES_SERVICE=localhost:8887/v1 EXPERIENCIA_LABORAL_SERVICE=localhost:8099/v1 ORGANIZACION_SERVICE=localhost:8097/v1 IDIOMAS_SERVICE=localhost:8103/v1 DOCUMENTOS_SERVICE=localhost:8094/v1 ENTE_SERVICE=localhost:8096/v1 CAMPUS_MID_HTTP_PORT=8095 UBICACIONES_SERVICE=localhost:8085/v1 CORE_SERVICE=localhost:8102/v1 SESIONES_SERVICE=localhost:8081/v1 PROGRAMA_ACADEMICO_SERVICE=localhost:8101/v1 bee run -gendoc=true 
