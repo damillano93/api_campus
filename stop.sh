@@ -11,3 +11,4 @@ killall ubicaciones_crud
 killall admisiones_crud
 killall idiomas_crud
 killall sesiones_crud
+killall forms_management_crud
