@@ -1,4 +1,4 @@
 killall programa_academico_crud
 cd $GOPATH/src/github.com/udistrital/programa_academico_crud/
-google-chrome http://localhost:8098/swagger
-PROGRAMA_ACADEMICO_HTTP_PORT=8098 PROGRAMA_ACADEMICO_CRUD__PGUSER=postgres PROGRAMA_ACADEMICO_CRUD__PGPASS=password PROGRAMA_ACADEMICO_CRUD__PGURLS=localhost PROGRAMA_ACADEMICO_CRUD__PGDB=local PROGRAMA_ACADEMICO_CRUD__SCHEMA=academica bee run -gendoc=true 
+google-chrome http://localhost:8101/swagger
+PROGRAMA_ACADEMICO_HTTP_PORT=8101 PROGRAMA_ACADEMICO_CRUD__PGUSER=postgres PROGRAMA_ACADEMICO_CRUD__PGPASS=password PROGRAMA_ACADEMICO_CRUD__PGURLS=localhost PROGRAMA_ACADEMICO_CRUD__PGDB=local PROGRAMA_ACADEMICO_CRUD__SCHEMA=academica bee run -gendoc=true 
