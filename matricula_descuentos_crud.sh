@@ -1,0 +1,4 @@
+killall matricula_descuentos_crud
+cd $GOPATH/src/github.com/udistrital/matricula_descuentos_crud/
+google-chrome http://localhost:9013/swagger
+API_MATRICULA_DESCUENTOS_HTTP_PORT=9013 MATRICULA_DESCUENTOS_CRUD__PGUSER=postgres MATRICULA_DESCUENTOS_CRUD__PGPASS=password MATRICULA_DESCUENTOS_CRUD__PGURLS=localhost MATRICULA_DESCUENTOS_CRUD__PGDB=prueba MATRICULA_DESCUENTOS_CRUD__SCHEMA=forms_management bee run -gendoc=true 

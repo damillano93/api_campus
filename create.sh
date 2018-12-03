@@ -12,6 +12,8 @@ killall idiomas_crud
 killall sesiones_crud
 killall organizacion_crud
 killall forms_management_crud
+killall produccion_academica_crud 
+killall matricula_descuentos_crud
 echo "Crear carpeta udistrital"
 sudo rm -r $GOPATH/src/github.com/udistrital
 mkdir $GOPATH/src/github.com/udistrital
@@ -32,7 +34,8 @@ git clone -b develop https://github.com/udistrital/idiomas_crud
 git clone -b develop https://github.com/udistrital/sesiones_crud
 git clone -b develop https://github.com/udistrital/organizacion_crud
 git clone -b develop https://github.com/udistrital/forms_management_crud
-
+git clone -b develop https://github.com/udistrital/produccion_academica_crud
+git clone -b develop https://github.com/udistrital/matricula_descuentos_crud
 
 
 clear

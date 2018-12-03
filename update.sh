@@ -52,3 +52,10 @@ git pull https://github.com/udistrital/organizacion_crud develop
 echo "Actualizar forms_management_crud"
 cd $GOPATH/src/github.com/udistrital/forms_management_crud/
 git pull https://github.com/udistrital/forms_management_crud develop
+echo "Actualizar produccion_academica_crud"
+cd $GOPATH/src/github.com/udistrital/produccion_academica_crud/
+git pull https://github.com/udistrital/produccion_academica_crud develop
+echo "Actualizar matricula_descuentos_crud"
+cd $GOPATH/src/github.com/udistrital/matricula_descuentos_crud/
+git pull https://github.com/udistrital/matricula_descuentos_crud develop
+

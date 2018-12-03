@@ -12,3 +12,6 @@ killall admisiones_crud
 killall idiomas_crud
 killall sesiones_crud
 killall forms_management_crud
+killall produccion_academica_crud
+killall matricula_descuentos_crud
+killall organizacion_crud

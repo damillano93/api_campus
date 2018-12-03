@@ -1,0 +1,4 @@
+killall produccion_academica_crud
+cd $GOPATH/src/github.com/udistrital/produccion_academica_crud/
+google-chrome http://localhost:9012/swagger
+API_PRODUCCION_ACADEMICA_HTTP_PORT=9012 PRODUCCION_ACADEMICA_CRUD__PGUSER=postgres PRODUCCION_ACADEMICA_CRUD__PGPASS=password PRODUCCION_ACADEMICA_CRUD__PGURLS=localhost PRODUCCION_ACADEMICA_CRUD__PGDB=prueba PRODUCCION_ACADEMICA_CRUD__SCHEMA=forms_management bee run -gendoc=true 
